@@ -9,7 +9,9 @@ import { HeroeComponent } from "./heroe/heroe.component";
         ListadoComponent
     ],
     exports: [
-        ListadoComponent
+        ListadoComponent,
+        HeroeComponent
+
     ],
     imports: [
         CommonModule
